@@ -1,0 +1,313 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-size: cover;
+    background-color: #0a1533;
+    font-family: 'Montserrat', sans-serif; 
+    padding-top: 40px;
+}
+
+/* Navigation bar  */
+main .navbar{
+    padding: 0 20px;
+}
+.nav-link{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.nav-link:hover{
+    color: white;
+}
+.nav-item{
+    margin: 0 10px;
+    font-weight: bold;
+}
+#navbarNav{
+    text-align: center;
+}
+.buy-token{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.buy-token:hover{
+    background-image: linear-gradient(to right ,#80eaff,#eb0cdb); 
+}
+.navbar-toggler{
+    background-image: linear-gradient(-60deg ,#80eaff,#eb0cdb); 
+    border-style: none;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+@media (max-width: 1000px){
+    .navbar #navbarNav{
+        text-align: none;
+       padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* features */
+#features{
+    background-image: url("https://web.archive.org/web/20220115043703im_/https://uploads-ssl.webflow.com/61b26747ebe3769504b88d29/61b358420952af1722fff65e_Header%20BG.png");
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 170px;
+    color: white;
+}
+.gaming-image{
+    padding-left: 100px;
+}
+@media (max-width: 1000px){
+    .gaming-image{
+        padding-left: 0;
+    }
+}
+.gaming-image img{
+    width: 400px;
+    height: 470px;
+    
+}
+.the-future{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    line-height: 1;
+}
+#features .row button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+.gaming-btn{
+    margin: 0 10px;
+}
+#features .row button:hover{
+    background-image: linear-gradient(to right ,#80eaff,#eb0cdb);
+    color: white;
+}
+.gaming-des{
+    margin-top: 25px;
+    color: gray;
+    font-size: 1.2rem;
+}
+.gaming{
+    background-image: linear-gradient(to right ,#80eaff,#eb0cdb); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.built-on{
+    background-image: linear-gradient(to right ,#1d90a7,#eb0cdb); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#features .row .telegram{
+    font-size: 2rem;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-color: none;
+    border: 2px solid white;
+}
+
+/* Reason to choose */
+.reason-to-choose{
+    text-align: center;
+    color: white;
+}
+.reson-header{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.space{
+    background-image: linear-gradient(to right ,#1d90a7,#eb0cdb); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.space-card{
+    width: 300px;
+    margin: 50px 20px ;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    border:2px solid white;
+    padding: 40px;
+    border-radius: 20px;
+}
+.space-card:hover{
+    background-image: linear-gradient(-60deg ,#1d90a7,#eb0cdb); 
+}
+.space-card-head{
+    padding: 0 0 35px 0;
+    font-size: 2rem;
+    line-height: 1;
+}
+.gaming-card{
+    padding: 35.5px;
+}
+
+/* Tokenomics */
+#tokenomics{
+    color: white;
+    text-align: center;
+    margin-bottom: 140px;
+}
+.temp-token{
+    background-image: linear-gradient(to right ,#1d90a7,#eb0cdb); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tokenomics-des{
+    font-size: 3rem;
+    margin: 80px 0;
+}
+.tokenomics-up{
+    margin: 30px 0;
+    
+}
+.rate-perc{
+    text-align: left;
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: 1.3rem;
+    width: 150px;
+    padding: 0 10px;
+    vertical-align: top;
+}
+.tokenomics-down{
+    margin: 1px;
+    line-height: 1.7;
+}
+.tokenomics-card{
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    margin: 30px 30px;
+    vertical-align: top;
+}
+.tokenomics-card-head{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right ,#1d90a7,#eb0cdb); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Growth Tactics */
+#growth-tactics{
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+.growth-tactics-head{
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+.tactic{
+    background-image: linear-gradient(to right ,#1d90a7,#eb0cdb); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.tactic-card{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 20px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 23px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.tactic-card:hover{
+    background-color: white;
+    color: black;
+}
+.small-tactic-card{
+    padding-bottom: 45px;
+}
+
+/* Project Roadmap */
+#project-roadmap{
+    color: white;
+    text-align: center;
+}
+.project-roadmap-head{
+    font-size: 3rem;
+    margin-bottom:70px;
+}
+.road-map{
+    background-image: linear-gradient(to right ,#1d90a7,#eb0cdb); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.q-number{
+    font-size: 3rem;
+}
+.q-count{
+    border: 3px solid white;
+    width: 170px;
+    padding: 0 10px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right ,#1d90a7,#eb0cdb);
+}
+.q-des{
+    margin-top: 70px;
+    padding: 0 20%;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+.holders{
+    font-size:4rem;
+    color: #1d90a7;
+    font-family: 'Montserrat', sans-serif; 
+}
+.q-des-big{
+    font-size: 2.3rem;
+}
+
+/* Q and A */
+.q-and-a{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+.q-a-head{
+    font-size: 3rem;
+}
+.answered{
+    background-image: linear-gradient(to right ,#1d90a7,#eb0cdb); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.collapse .card{
+    font-size: 1rem;
+    background-color: #0a1533;
+    text-align: left;
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* footer */
+
+.footer{
+    color: white;
+    margin-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+.foot-block-head{
+    font-size: 3rem;
+}
+
+.footer-block{
+    margin:90px;
+}
+li{
+    list-style: none;
+}
+
+
+
+
